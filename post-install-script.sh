@@ -57,7 +57,7 @@ lm-sensors \
 # flatpaks
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo -y
 sudo flatpak install flathub -y
-sudo flatpak install discord runelite postman drawing fragments -y
+sudo flatpak install discord runelite postman drawing fragments yaru-dark -y
 
 #------------------------------------------
 
