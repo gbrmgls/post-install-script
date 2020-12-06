@@ -54,6 +54,7 @@ qbittorrent \
 code \
 steam \
 htop \
+lm-sensors \
 -y 
 
 # -----------------------------------------
