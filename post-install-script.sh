@@ -9,9 +9,6 @@ sudo add-apt-repository ppa:phoerious/keepassxc -y
 ## dbeaver
 sudo add-apt-repository ppa:serge-rider/dbeaver-ce -y
 
-## qbittorrent
-sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y
-
 ## vscode
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
@@ -62,7 +59,7 @@ lm-sensors \
 # flatpaks
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo -y
 sudo flatpak install flathub -y
-sudo flatpak install discord runelite postman-y
+sudo flatpak install discord runelite postman drawing fragments -y
 
 #------------------------------------------
 
