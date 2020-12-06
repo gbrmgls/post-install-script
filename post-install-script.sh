@@ -32,7 +32,6 @@ gnome-tweak-tool \
 flameshot \
 git \
 gnome-boxes \
-pinta \
 syncthing \
 snapd \
 alacarte \
@@ -47,7 +46,6 @@ net-tools \
 solaar \
 keepassxc \
 dbeaver-ce \
-qbittorrent \
 code \
 steam \
 htop \
