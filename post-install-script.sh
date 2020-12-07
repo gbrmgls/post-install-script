@@ -91,3 +91,9 @@ sudo apt autoremove -y
 
 # manual installs:
 ## stremio, veracrypt, fluxion, bettercap, xampp, anydesk
+
+# if laptop, to calibrate battery:
+## powertop, power-calibrate
+## run:
+## powertop --auto-tune
+## power-calibrate -R -r 20 -d 5 -s 21 -n 0 -p
