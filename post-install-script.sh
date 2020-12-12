@@ -90,7 +90,7 @@ sudo apt autoremove -y
 ##  dash to pannel, gsconnect, bluetooth quick connect
 
 # manual installs:
-## stremio, veracrypt, fluxion, bettercap, xampp, anydesk
+## stremio, veracrypt, fluxion, bettercap, xampp, anydesk, insomnia
 
 # if laptop, to calibrate battery:
 ## powertop, power-calibrate
