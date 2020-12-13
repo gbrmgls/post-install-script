@@ -17,9 +17,6 @@ sudo sh -c 'echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/packages.micr
 ## joplin
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 
-## anydesk
-sudo sh -c 'echo "deb http://deb.anydesk.com/ all main" >> /etc/apt/sources.list.d/anydesk-stable.list'
-
 
 sudo apt update &&  
 sudo apt upgrade -y && 
@@ -54,7 +51,6 @@ steam \
 htop \
 lm-sensors \
 libreoffice \
-anydesk \
 -y 
 
 # -----------------------------------------
