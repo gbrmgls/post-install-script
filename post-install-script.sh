@@ -1,4 +1,4 @@
-# Preparations
+# PREPARATIONS
 
 ## lutris
 sudo add-apt-repository ppa:lutris-team/lutris -y
@@ -17,6 +17,9 @@ sudo sh -c 'echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/packages.micr
 ## joplin
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 
+## anydesk
+sudo sh -c 'echo "deb http://deb.anydesk.com/ all main" >> /etc/apt/sources.list.d/anydesk-stable.list'
+
 
 sudo apt update &&  
 sudo apt upgrade -y && 
@@ -25,8 +28,8 @@ sudo apt autoremove -y
 sudo apt install apt-transport-https -y 
 
 # -----------------------------------------
+# REPO APT INSTALLS
 
-# repo apt installs
 sudo apt install \
 gnome-tweak-tool \
 flameshot \
@@ -51,47 +54,55 @@ steam \
 htop \
 lm-sensors \
 libreoffice \
+anydesk \
 -y 
 
 # -----------------------------------------
+# FLATPAKS
 
-# flatpaks
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo -y
 sudo flatpak install flathub -y
 sudo flatpak install discord runelite postman drawing fragments yaru-dark -y
 
 #------------------------------------------
+# SNAPS
 
-# snaps
 sudo snap install docker
 
 #------------------------------------------
+# EXTERNALS
 
-
-# externals
+## create and enter download folder
 mkdir debs 
+cd debs
 
-# chrome
-wget -O ./debs/chrome.deb -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+## chrome
+wget - ./debs/chrome.deb -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
+## insomnia
+wget - https://updates.insomnia.rest/downloads/ubuntu/latest
+
+## install .debs
 sudo apt install ./debs/*.deb -y
 
+## exit and delete folder
+cd ..
 rm -rf ./debs
 
 # -----------------------------------------
+# CLEANUP
 
-# cleanup
 sudo apt update && 
 sudo apt upgrade -y && 
 sudo apt autoremove -y 
 
 # -----------------------------------------
 
-# gnome extensions:
+# GNOME EXTENSIONS
 ##  dash to pannel, gsconnect, bluetooth quick connect
 
-# manual installs:
-## stremio, veracrypt, fluxion, bettercap, xampp, anydesk, insomnia
+# MANUAL INSTALLS
+## stremio, veracrypt, fluxion, bettercap, xampp, anydesk
 
 # if laptop, to calibrate battery:
 ## powertop, power-calibrate
