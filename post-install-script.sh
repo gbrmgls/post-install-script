@@ -1,5 +1,8 @@
 # PREPARATIONS
 
+## qbittorrent
+sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y
+
 ## lutris
 sudo add-apt-repository ppa:lutris-team/lutris -y
 
@@ -51,6 +54,7 @@ steam \
 htop \
 lm-sensors \
 libreoffice \
+qbittorrent \
 -y 
 
 # -----------------------------------------
@@ -58,7 +62,7 @@ libreoffice \
 
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo -y
 sudo flatpak install flathub -y
-sudo flatpak install discord runelite postman drawing fragments yaru-dark -y
+sudo flatpak install discord runelite drawing yaru-dark qbittorrent -y
 
 #------------------------------------------
 # SNAPS
