@@ -50,6 +50,7 @@ code \
 steam \
 htop \
 lm-sensors \
+libreoffice \
 -y 
 
 # -----------------------------------------
