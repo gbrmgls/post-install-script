@@ -70,26 +70,6 @@ sudo flatpak install discord runelite drawing yaru-dark qbittorrent -y
 sudo snap install docker
 
 #------------------------------------------
-# EXTERNALS
-
-## create and enter download folder
-mkdir debs 
-cd debs
-
-## chrome
-wget - ./debs/chrome.deb -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-
-## insomnia
-wget - https://updates.insomnia.rest/downloads/ubuntu/latest
-
-## install .debs
-sudo apt install ./debs/*.deb -y
-
-## exit and delete folder
-cd ..
-rm -rf ./debs
-
-# -----------------------------------------
 # CLEANUP
 
 sudo apt update && 
@@ -102,7 +82,7 @@ sudo apt autoremove -y
 ##  dash to pannel, gsconnect, bluetooth quick connect
 
 # MANUAL INSTALLS
-## stremio, veracrypt, fluxion, bettercap, xampp, anydesk
+## stremio, veracrypt, fluxion, bettercap, xampp, anydesk, chrome, insomnia
 
 # if laptop, to calibrate battery:
 ## powertop, power-calibrate
