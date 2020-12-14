@@ -20,6 +20,9 @@ sudo sh -c 'echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/packages.micr
 ## joplin
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 
+## zerotier-one
+curl -s https://install.zerotier.com | sudo bash
+
 
 sudo apt update &&  
 sudo apt upgrade -y && 
