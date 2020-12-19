@@ -34,7 +34,7 @@ sudo apt install \
 gnome-tweak-tool \
 flameshot \
 git \
-gnome-boxes \
+gparted \
 syncthing \
 snapd \
 alacarte \
@@ -45,7 +45,6 @@ android-tools-fastboot \
 vlc \
 flatpak \
 lutris \
-net-tools \
 solaar \
 keepassxc \
 dbeaver-ce \
@@ -82,10 +81,4 @@ sudo apt autoremove -y
 ##  dash to pannel, gsconnect, bluetooth quick connect
 
 # MANUAL INSTALLS
-## stremio, veracrypt, fluxion, bettercap, xampp, anydesk, chrome, insomnia, virtualbox
-
-# if laptop, to calibrate battery:
-## powertop, power-calibrate
-## run:
-## powertop --auto-tune
-## power-calibrate -R -r 20 -d 5 -s 21 -n 0 -p
+## stremio, veracrypt, fluxion, bettercap, xampp, anydesk, chrome, virtualbox
