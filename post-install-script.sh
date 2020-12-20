@@ -12,6 +12,13 @@ sudo add-apt-repository ppa:phoerious/keepassxc -y
 ## dbeaver
 sudo add-apt-repository ppa:serge-rider/dbeaver-ce -y
 
+## docker
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+
 ## vscode
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
@@ -25,7 +32,13 @@ sudo apt update &&
 sudo apt upgrade -y && 
 sudo apt autoremove -y
 
-sudo apt install apt-transport-https -y 
+sudo apt install \ 
+apt-transport-https \
+ca-certificates \
+curl \
+gnupg-agent \
+software-properties-common \
+-y 
 
 # -----------------------------------------
 # REPO APT INSTALLS
@@ -55,6 +68,9 @@ lm-sensors \
 libreoffice \
 qbittorrent \
 gt5 \
+docker-ce \
+docker-ce-cli \
+containerd.io \
 -y 
 
 # -----------------------------------------
@@ -63,11 +79,6 @@ gt5 \
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo flatpak install flathub -y
 sudo flatpak install discord runelite drawing yaru-dark obsidian -y
-
-#------------------------------------------
-# SNAPS
-
-sudo snap install docker
 
 #------------------------------------------
 # CLEANUP
