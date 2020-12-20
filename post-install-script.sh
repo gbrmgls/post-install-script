@@ -54,6 +54,7 @@ htop \
 lm-sensors \
 libreoffice \
 qbittorrent \
+gt5 \
 -y 
 
 # -----------------------------------------
