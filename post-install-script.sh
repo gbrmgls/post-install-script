@@ -12,16 +12,6 @@ sudo add-apt-repository ppa:phoerious/keepassxc -y
 ## dbeaver
 sudo add-apt-repository ppa:serge-rider/dbeaver-ce -y
 
-## docker
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository \
-   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   $(lsb_release -cs) \
-   stable" -y
-   
-## docker-compose
-sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
 
 ## vscode
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
@@ -82,7 +72,7 @@ containerd.io \
 
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo flatpak install flathub -y
-sudo flatpak install discord runelite drawing yaru-dark obsidian -y
+sudo flatpak install discord runelite drawing yaru-dark obsidian barrier -y
 
 #------------------------------------------
 # CLEANUP
