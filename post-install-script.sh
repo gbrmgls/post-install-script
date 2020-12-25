@@ -87,4 +87,4 @@ sudo apt autoremove -y
 ##  dash to pannel, gsconnect, bluetooth quick connect
 
 # MANUAL INSTALLS
-## stremio, veracrypt, fluxion, bettercap, xampp, anydesk, chrome, virtualbox, etcher
+## stremio, veracrypt, fluxion, bettercap, xampp, anydesk, chrome, virtualbox, etcher, docker, docker-compose
