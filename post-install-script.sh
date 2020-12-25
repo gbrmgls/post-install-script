@@ -22,17 +22,17 @@ sudo sh -c 'echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/packages.micr
 curl -s https://install.zerotier.com | sudo bash
 
 
-sudo apt update &&  
-sudo apt upgrade -y && 
+sudo apt update &&
+sudo apt upgrade -y &&
 sudo apt autoremove -y
 
-sudo apt install \ 
+sudo apt install \
 apt-transport-https \
 ca-certificates \
 curl \
 gnupg-agent \
 software-properties-common \
--y 
+-y
 
 # -----------------------------------------
 # REPO APT INSTALLS
@@ -62,10 +62,7 @@ lm-sensors \
 libreoffice \
 qbittorrent \
 gt5 \
-docker-ce \
-docker-ce-cli \
-containerd.io \
--y 
+-y
 
 # -----------------------------------------
 # FLATPAKS
