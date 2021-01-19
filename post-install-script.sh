@@ -41,6 +41,7 @@ sudo apt install \
 gnome-tweak-tool \
 gnome-system-tools \
 flameshot \
+audacious \
 git \
 gparted \
 syncthing \
