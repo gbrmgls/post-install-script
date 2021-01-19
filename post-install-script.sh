@@ -39,6 +39,7 @@ software-properties-common \
 
 sudo apt install \
 gnome-tweak-tool \
+gnome-system-tools \
 flameshot \
 git \
 gparted \
