@@ -1,5 +1,17 @@
 # PREPARATIONS
 
+sudo apt update &&
+sudo apt upgrade -y &&
+sudo apt autoremove -y
+
+sudo apt install \
+apt-transport-https \
+ca-certificates \
+curl \
+gnupg-agent \
+software-properties-common \
+-y
+
 ## qbittorrent
 sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y
 
@@ -25,14 +37,6 @@ curl -s https://install.zerotier.com | sudo bash
 sudo apt update &&
 sudo apt upgrade -y &&
 sudo apt autoremove -y
-
-sudo apt install \
-apt-transport-https \
-ca-certificates \
-curl \
-gnupg-agent \
-software-properties-common \
--y
 
 # -----------------------------------------
 # REPO APT INSTALLS
