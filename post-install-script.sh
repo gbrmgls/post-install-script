@@ -68,6 +68,7 @@ lm-sensors \
 libreoffice \
 qbittorrent \
 gt5 \
+docker.io \
 -y
 
 # -----------------------------------------
