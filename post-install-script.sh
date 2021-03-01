@@ -76,7 +76,12 @@ docker.io \
 
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo flatpak install flathub -y
-sudo flatpak install discord runelite yaru-dark md.obsidian.Obsidian barrier postman kolourpaint stremio -y
+sudo flatpak install discord runelite yaru-dark md.obsidian.Obsidian barrier postman kolourpaint stremio bottles -y
+
+# -----------------------------------------
+# SNAPS
+
+sudo snap install docker
 
 #------------------------------------------
 # CLEANUP
@@ -91,4 +96,4 @@ sudo apt autoremove -y
 ##  dash to pannel, gsconnect, bluetooth quick connect
 
 # MANUAL INSTALLS
-## veracrypt, fluxion, bettercap, xampp, anydesk, chrome, virtualbox, etcher, docker, docker-compose, ngrok
+## veracrypt, xampp, anydesk, chrome, virtualbox, etcher, ngrok
