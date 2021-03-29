@@ -69,6 +69,8 @@ libreoffice \
 qbittorrent \
 gt5 \
 docker.io \
+linux-generic \
+sqlitebrowser \
 -y
 
 # -----------------------------------------
