@@ -71,6 +71,7 @@ gt5 \
 docker.io \
 linux-generic \
 sqlitebrowser \
+gnome-software-plugin-flatpak \
 -y
 
 # -----------------------------------------
