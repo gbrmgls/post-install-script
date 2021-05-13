@@ -74,6 +74,7 @@ sqlitebrowser \
 gnome-software-plugin-flatpak \
 stacer \
 nemo \
+terminator \
 -y
 
 # -----------------------------------------
