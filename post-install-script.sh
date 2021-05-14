@@ -75,6 +75,9 @@ gnome-software-plugin-flatpak \
 stacer \
 nemo \
 terminator \
+bashtop \
+ncdu \
+ranger \
 -y
 
 # -----------------------------------------
