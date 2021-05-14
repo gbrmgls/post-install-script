@@ -63,11 +63,8 @@ keepassxc \
 dbeaver-ce \
 code \
 steam \
-htop \
-lm-sensors \
 libreoffice \
 qbittorrent \
-gt5 \
 docker.io \
 linux-generic \
 sqlitebrowser \
