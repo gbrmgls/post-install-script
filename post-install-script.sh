@@ -82,7 +82,18 @@ ranger \
 
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo flatpak install flathub -y
-sudo flatpak install discord runelite yaru-dark md.obsidian.Obsidian barrier postman kolourpaint stremio bottles -y
+sudo flatpak install \ 
+discord \
+runelite \
+yaru-dark \
+md.obsidian.Obsidian \
+barrier \
+postman \
+kolourpaint \
+stremio \
+bottles \
+warpinator \
+-y
 
 # -----------------------------------------
 # SNAPS
@@ -99,7 +110,7 @@ sudo apt autoremove -y
 # -----------------------------------------
 
 # GNOME EXTENSIONS
-##  dash to pannel, gsconnect, bluetooth quick connect
+##  dash to pannel, bluetooth quick connect
 
 # MANUAL INSTALLS
 ## veracrypt, xampp, anydesk, chrome, virtualbox, etcher, ngrok
