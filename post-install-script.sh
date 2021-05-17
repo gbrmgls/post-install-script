@@ -50,7 +50,6 @@ git \
 gparted \
 syncthing \
 snapd \
-alacarte \
 npm \
 tmux \
 android-tools-adb \
