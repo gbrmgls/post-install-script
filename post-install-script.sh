@@ -92,6 +92,7 @@ kolourpaint \
 stremio \
 bottles \
 warpinator \
+libresprite \
 -y
 
 # -----------------------------------------
