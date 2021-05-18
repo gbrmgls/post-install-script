@@ -109,7 +109,7 @@ sudo apt autoremove -y
 # -----------------------------------------
 
 # GNOME EXTENSIONS
-##  dash to pannel, bluetooth quick connect
+##  dash to pannel, bluetooth quick connect, impatience
 
 # MANUAL INSTALLS
 ## veracrypt, xampp, anydesk, chrome, virtualbox, etcher, ngrok
