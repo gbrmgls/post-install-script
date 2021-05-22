@@ -90,7 +90,6 @@ barrier \
 postman \
 kolourpaint \
 stremio \
-bottles \
 warpinator \
 libresprite \
 -y
