@@ -74,6 +74,7 @@ terminator \
 bashtop \
 ncdu \
 ranger \
+exo-utils \
 -y
 
 # -----------------------------------------
