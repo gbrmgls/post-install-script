@@ -82,16 +82,21 @@ ranger \
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo flatpak install flathub -y
 sudo flatpak install \ 
-discord \
-runelite \
+com.discordapp.Discord \
+net.runelite.RuneLite \
 yaru-dark \
 md.obsidian.Obsidian \
-barrier \
-postman \
-kolourpaint \
-stremio \
-warpinator \
-libresprite \
+com.github.debauchee.barrier \
+com.getpostman.Postman \
+org.kde.kolourpaint \
+com.stremio.Stremio \
+org.x.Warpinator \
+com.github.libresprite.LibreSprite \
+com.jgraph.drawio.desktop \
+org.godotengine.Godot \
+com.unity.UnityHub \
+com.obsproject.Studio \
+org.kde.kdenlive \
 -y
 
 # -----------------------------------------
