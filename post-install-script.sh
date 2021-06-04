@@ -118,4 +118,4 @@ sudo apt autoremove -y
 ##  dash to pannel, bluetooth quick connect, impatience
 
 # MANUAL INSTALLS
-## veracrypt, xampp, anydesk, chrome, virtualbox, etcher, ngrok
+## veracrypt, anydesk, chrome, virtualbox, etcher, ngrok
