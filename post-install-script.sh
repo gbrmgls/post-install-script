@@ -75,6 +75,7 @@ bashtop \
 ncdu \
 ranger \
 exo-utils \
+google-chrome-stable \
 -y
 
 # -----------------------------------------
@@ -87,7 +88,6 @@ com.discordapp.Discord \
 net.runelite.RuneLite \
 yaru-dark \
 md.obsidian.Obsidian \
-com.github.debauchee.barrier \
 com.getpostman.Postman \
 org.kde.kolourpaint \
 com.stremio.Stremio \
@@ -118,4 +118,4 @@ sudo apt autoremove -y
 ##  dash to pannel, bluetooth quick connect, impatience
 
 # MANUAL INSTALLS
-## veracrypt, anydesk, chrome, virtualbox, etcher, ngrok
+## veracrypt, anydesk, virtualbox, etcher, ngrok
