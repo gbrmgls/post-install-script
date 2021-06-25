@@ -98,6 +98,7 @@ org.godotengine.Godot \
 com.unity.UnityHub \
 com.obsproject.Studio \
 org.kde.kdenlive \
+com.github.paolostivanin.OTPClient \
 -y
 
 # -----------------------------------------
