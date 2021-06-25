@@ -82,7 +82,7 @@ exo-utils \
 
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo flatpak install flathub -y
-sudo flatpak install \ 
+sudo flatpak install \
 com.discordapp.Discord \
 net.runelite.RuneLite \
 yaru-dark \
