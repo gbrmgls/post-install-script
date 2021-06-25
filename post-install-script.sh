@@ -75,7 +75,6 @@ bashtop \
 ncdu \
 ranger \
 exo-utils \
-google-chrome-stable \
 -y
 
 # -----------------------------------------
