@@ -46,6 +46,7 @@ gnome-tweak-tool \
 gnome-system-tools \
 flameshot \
 audacious \
+barrier \
 git \
 gparted \
 syncthing \
