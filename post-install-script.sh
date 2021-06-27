@@ -10,6 +10,7 @@ ca-certificates \
 curl \
 gnupg-agent \
 software-properties-common \
+net-tools \
 -y
 
 ## qbittorrent
