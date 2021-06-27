@@ -99,6 +99,7 @@ com.unity.UnityHub \
 com.obsproject.Studio \
 org.kde.kdenlive \
 com.github.paolostivanin.OTPClient \
+com.system76.Popsicle \
 -y
 
 # -----------------------------------------
@@ -119,4 +120,4 @@ sudo apt autoremove -y
 ##  dash to pannel, bluetooth quick connect, impatience
 
 # MANUAL INSTALLS
-## veracrypt, anydesk, virtualbox, etcher, ngrok
+## veracrypt, anydesk, virtualbox, ngrok
