@@ -71,7 +71,7 @@ linux-generic \
 sqlitebrowser \
 gnome-software-plugin-flatpak \
 stacer \
-thunar \
+nemo \
 terminator \
 bashtop \
 ncdu \
