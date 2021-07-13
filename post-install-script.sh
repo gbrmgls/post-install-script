@@ -106,7 +106,10 @@ com.system76.Popsicle \
 # -----------------------------------------
 # SNAPS
 
-sudo snap install docker
+sudo snap install \
+docker \
+gitkraken --classic \
+eclipse --classic \
 
 #------------------------------------------
 # CLEANUP
