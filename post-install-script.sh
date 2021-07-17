@@ -57,6 +57,7 @@ tmux \
 android-tools-adb \
 android-tools-fastboot \
 vlc \
+paprefs \
 flatpak \
 lutris \
 solaar \
